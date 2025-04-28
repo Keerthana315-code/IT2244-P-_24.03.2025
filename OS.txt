@@ -1,0 +1,10 @@
+date +%d->Day of the month (2 digits)->To show today's date day part->28
+date +a->(Wrong) — %a needed->%a = Abbreviated weekday name->Mon
+date +%b->Abbreviated month name->Short form of month->Apr
+date +%B->Full month name->Full name of month->April
+cal->Show calendar of current month->View full calendar->(Shows April 2025 calendar)
+date +M->(Wrong) — %M needed->%M = Minute (00-59)->45
+date +%y->Last two digits of year->Show year in 2 digits->25
+date +Y->(Wrong) — %Y needed->%Y = Full year (4 digits)->2025
+date +%H->Hour (24-hour format)->Current hour->16
+date +%h->Same as %b (month short form)->Again short month name->Apr
